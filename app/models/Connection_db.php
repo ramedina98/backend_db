@@ -10,12 +10,15 @@
     require __DIR__ . '/../../vendor/autoload.php';
     use Dotenv\Dotenv;
 
-    //try catch for error handling....
-    try {
-        $dotenv = Dotenv::createImmutable(dirname(__DIR__, 2));
-        $dotenv->load();
-    } catch (Exception $e) {
-        die("Error loading Dotenv: " . $e->getMessage());
+    // Load environment variables only if they are not already defined (i.e. when running locally)
+    if(!getenv('RAILWAY_ENVIRONMENT')){
+        //try catch for error handling....
+        try {
+            $dotenv = Dotenv::createImmutable(dirname(__DIR__, 2));
+            $dotenv->load();
+        } catch (Exception $e) {
+            die("Error loading Dotenv: " . $e->getMessage());
+        }
     }
 
     class Connection {
@@ -27,10 +30,10 @@
         private $conn;
 
         public function __construct(){
-            $this->host = $_ENV['DB_HOST'];
-            $this->dbname = $_ENV['DB_DATABASE'];
-            $this->username = $_ENV['DB_USERNAME'];
-            $this->password = $_ENV['DB_PASSWORD'];
+            $this->host = getenv('DB_HOST') ?: $_ENV['DB_HOST'];
+            $this->dbname = getenv('DB_DATABASE') ?: $_ENV['DB_DATABASE'];
+            $this->username = getenv('DB_USERNAME') ?: $_ENV['DB_USERNAME'];
+            $this->password = getenv('DB_PASSWORD') ?: $_ENV['DB_PASSWORD'];
         }
 
         // TODO: Descomentar cuando la base de datos este creada y tenga acceso a todo...
