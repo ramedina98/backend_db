@@ -11,13 +11,11 @@
          * de la base de datos para el dashboard...
          * */
 
-         // TODO: obvio hay que adaptar esto a lo que de verdad tiene la base de datos...
+        // FIXME: Hay que rediseñar esta parte, ya que este query tiene que obtener
+        // la info del dw y mandarla al dm, el cual es un espejo del primero...
          // Hay que esperar a que este creada correctamente...
         public function getProducts(){
-            $query = "";
-            $stmt = $this->conn->prepare($query);
-            $stmt->execute();
-            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+            //TODO: Implementar la logica necesaria...
         }
     }
 ?>

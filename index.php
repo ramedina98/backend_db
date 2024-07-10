@@ -4,8 +4,10 @@
     error_reporting(E_ALL);
 
     require 'config/config.php';
-    require 'app/models/Connection_db.php';
-    require 'app/models/Queries.php';
+    require 'app/models/DB_DW/Connection_DW.php';
+    require 'app/models/DB_DW/QueriesDW.php';
+    require 'app/models/DB_DM/ConnectionDM.php';
+    require 'app/models/DB_DM/QueriesDM.php';
     require 'app/controllers/DashboardController.php';
 
     $controller = new DashboardController();
