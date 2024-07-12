@@ -8,18 +8,11 @@
             $this->conn = $db;
         }
 
-        /**
-         * Los siguientes son los metodos que nos devolveran la información requerid
-         * de la base de datos para el dashboard...
-         * */
-
-         // NOTE: adaptar este query para obtener los tos necesarios de la base de dato...
-         // Hay que esperar a que este creada correctamente...
-        public function getProducts(){
-            $query = "";
-            $stmt = $this->conn->prepare($query);
-            $stmt->execute();
-            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        // this method does the connection to the data mart..
+        public function getProducts() {
+            //TODO: Logica para obtener requeridos
         }
+
+        //NOTE: faltaria un methodo más para el manejo de esta base de datos (DATA MART)...
     }
 ?>

@@ -1,7 +1,7 @@
 <?php
     /**
      * @author Ricardo Medina
-     * 10/07/2024
+     * 04/07/2024
      * @ this is the connection class to the data mart
      */
 
@@ -19,9 +19,8 @@
             die("Error loading Dotenv: " . $e->getMessage());
         }
     }
-
     class Connection_DM{
-        // TODO: Llamar a las variables de entorno...
+
         private $host;
         private $dbname;
         private $username;
@@ -35,15 +34,21 @@
             $this->password = getenv('DB_PASSWORD') ?: $_ENV['DB_PASSWORD_DM'];
         }
 
-        // TODO: Descomentar cuando la base de datos este creada y tenga acceso a todo...
-        /*public function getConnection(){
+        public function getConnection(){
             $this->conn = null;
             try{
-                $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->dbname, $this->username, $this->password);
-                $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            } catch(PDOException $e){
+                $this->conn = new mysqli($this->host, $this->username, $this->password, $this->dbname);
+
+                //verufy connection...
+                if($this->conn->connect_errno){
+                    throw new Exception("Connection error: " . $this->conn->connect_error);
+                }
+
+                return $this->conn;
+            } catch(Exception $e){
                 echo "Connection error: " . $e->getMessage();
+                return null;
             }
-        } */
+        }
     }
 ?>
