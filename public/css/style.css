@@ -73,3 +73,39 @@ nav{
     background-color: var(--nectarine);
     color: var(--floral_white);
 }
+
+/*Main secton*/
+
+
+/*this are the settings of the footer section*/
+footer{
+    background-color: var(--atlantic_deep);
+}
+#a_brand{
+    color: var(--aloe_cream);
+    width: 265px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+#copy_conteiner{
+    width: 310px;
+    height: auto;
+    color: var(--aloe_cream);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*media queries section*/
+@media screen and (max-width: 625px){
+    #copy_brand_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
