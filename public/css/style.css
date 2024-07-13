@@ -1,1 +1,75 @@
-/*Hoja de estilos principal*/
+/*Font import: Canterall*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+Variables to define the color palette.
+
+This color palette I got it from the threads account (awsmcolors)...
+*/
+:root{
+    --atlantic_deep: #294D58;
+    --aloe_cream: #DBE5B9;
+    --floral_white: #FDFAF3;
+    --nectarine: #FF8656;
+}
+
+/*basic css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+html,
+body{
+    width: 100%;
+    height: auto;
+}
+
+/*Here we have the settings of the header and navbar...*/
+header{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-color: var(--aloe_cream);
+    box-shadow: 0px 1px 5px rgba(24, 24, 24, 0.225);
+}
+.a_color_nav_label{
+    color: var(--atlantic_deep);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#btn_navbar_toggler{
+    border-color: var(--atlantic_deep);
+}
+#icon_navbar_toggle{
+    color: var(--atlantic_deep);
+}
+/*this is the side menu settings*/
+#offcanvasDarkNavbar{
+    background-color: var(--aloe_cream);
+    color: var(--atlantic_deep);
+    & a{
+        color: var(--atlantic_deep);
+    }
+}
+/*this is the search input settings*/
+#input_search{
+    color: var(--atlantic_deep);
+}
+#input_search::placeholder{
+    color: var(--nectarine);
+}
+#btn_search{
+    background-color: var(--atlantic_deep);
+    color: var(--aloe_cream);
+}
+#btn_search:hover{
+    transition: all 200ms ease-in-out;
+    background-color: var(--nectarine);
+    color: var(--floral_white);
+}
