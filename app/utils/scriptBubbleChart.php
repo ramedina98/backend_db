@@ -1,0 +1,3 @@
+<?php
+ // aqui debe de ir el script de la grafica de burbujas...
+?>

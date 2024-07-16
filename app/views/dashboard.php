@@ -5,9 +5,7 @@
     include './templates/header.php';
 ?>
 
-<!--TODO: acomodar esta parte-->
 <main>
-    <!--TODO: aqui es donde iria el contenido de la pagina, las graficas y demás-->
     <section class="main_graph_container">
         <div class="title_form">
             <div class="graph_title_container">
@@ -17,7 +15,7 @@
         </div>
         <!--Here we have the graph-->
         <div class="graph_container">
-            <!--TODO: pegar lo demas del escript-->
+            <!--TODO: hacer un include php de su script (el script esta en la carpeta utils)-->
             <div id="piechart" style="width: 900px; height: 500px;"></div>
         </div>
     </section>
@@ -31,12 +29,11 @@
         </div>
         <!--Here we have the graph-->
         <div class="graph_container">
-            <!--TODO: pegar lo demas del escript-->
+            <!--TODO: hacer un include php de su script (el script esta en la carpeta utils)-->
             <div id="piechart" style="width: 900px; height: 500px;"></div>
         </div>
     </section>
 
-    <!--TODO: aquí debe de ir el escript-->
 </main>
 
 <?php

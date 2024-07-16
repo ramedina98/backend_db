@@ -1,48 +1,19 @@
-form{
-    width: 250px;
+/*this css is from the component that display the current date int the chart containeres...*/
+#date_container{
+    width:  300px;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    & label{
-        margin-bottom: 1em;
-        color: var(--nectarine);
+    text-align: right;
+    color: var(--atlantic_deep);
+    & h3{
+        font-size: 1.3em;
         font-weight: 500;
-        letter-spacing: 0.03em;
-        font-size: 1.03em;
-    }
-    & input{
-        cursor: pointer;
-        width: 100%;
-        margin-bottom: 0.6em;
-        outline: none;
-        padding: 0.4em;
-        border: none;
-        border-radius: 0.3em;
-        background-color: var(--nectarine);
-        color: var(--floral_white);
-        font-size: 1.03em;
-        letter-spacing: 0.03em;
-    }
-    & button{
-        width: 100%;
-        height: auto;
-        padding: 0.3em;
-        border: none;
-        border-radius: 0.3em;
-        background-color: var(--atlantic_deep);
-        color: var(--aloe_cream);
         letter-spacing: 0.03em;
     }
 }
 
-/*media query of the form component*/
-@media screen and (max-width: 583px){
-    form{
-        align-items: flex-start;
-        & label{
-            color: var(--atlantic_deep);
-        }
+/*this query helps us to put the text to left when the screen width is 807px*/
+@media screen and (max-width: 807px){
+    #date_container{
+        text-align: left;
     }
 }
