@@ -1,0 +1,48 @@
+form{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    & label{
+        margin-bottom: 1em;
+        color: var(--nectarine);
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        font-size: 1.03em;
+    }
+    & input{
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 0.6em;
+        outline: none;
+        padding: 0.4em;
+        border: none;
+        border-radius: 0.3em;
+        background-color: var(--nectarine);
+        color: var(--floral_white);
+        font-size: 1.03em;
+        letter-spacing: 0.03em;
+    }
+    & button{
+        width: 100%;
+        height: auto;
+        padding: 0.3em;
+        border: none;
+        border-radius: 0.3em;
+        background-color: var(--atlantic_deep);
+        color: var(--aloe_cream);
+        letter-spacing: 0.03em;
+    }
+}
+
+/*media query of the form component*/
+@media screen and (max-width: 583px){
+    form{
+        align-items: flex-start;
+        & label{
+            color: var(--atlantic_deep);
+        }
+    }
+}

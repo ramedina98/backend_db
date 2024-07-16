@@ -4,32 +4,41 @@
      */
     include './templates/header.php';
 ?>
+
 <!--TODO: acomodar esta parte-->
 <main>
     <!--TODO: aqui es donde iria el contenido de la pagina, las graficas y demás-->
-    <section style="width: 100%; height: 100vh;">
-    <?php
-    /**
-     * TODO: AQUI SE DEBE AGREGAR OTRA GRAFICA...
-     * NOTE: Esto tambien es un ejemplo
-     * if (!empty($data_dm)) {
-     * echo '<h2>Productos:</h2>';
-     * echo '<pre>';
-     *   print_r($data_dm);
-    *  echo '</pre>';
-    *} else {
-    *    echo 'No se encontraron productos.';
-    *}
-    */
-    ?>
+    <section class="main_graph_container">
+        <div class="title_form">
+            <div class="graph_title_container">
+                <h3>Grafica de Usuario Producto</h3>
+            </div>
+            <?php include './templates/date_form.php'?>
+        </div>
+        <!--Here we have the graph-->
+        <div class="graph_container">
+            <!--TODO: pegar lo demas del escript-->
+            <div id="piechart" style="width: 900px; height: 500px;"></div>
+        </div>
     </section>
 
-    <section style="width: 100%; height: 100vh;">
-    <?php
-    //TODO: Aquí se debe agregar una grafica...
-    ?>
+    <section class="main_graph_container">
+        <div class="title_form">
+            <div class="graph_title_container">
+                <h3>Grafica de Producto Precio</h3>
+            </div>
+            <?php include './templates/date_form.php'?>
+        </div>
+        <!--Here we have the graph-->
+        <div class="graph_container">
+            <!--TODO: pegar lo demas del escript-->
+            <div id="piechart" style="width: 900px; height: 500px;"></div>
+        </div>
     </section>
+
+    <!--TODO: aquí debe de ir el escript-->
 </main>
+
 <?php
     /**
      * Se esta agregando de manera dinamica el footer...
