@@ -25,12 +25,8 @@
 
         // method to handle the main logic for the dashboard...
         public function index() {
-            /**
-             * TODO: Aqui hay que generar las variables para ser usadas en el dashboard.php
-             * NOTE: Esto es un ejemplo...
-             * $data_dm = $this->queries_dm->getProducts();
-             * $data_dw = $this->queries_dw->getProducts();
-             */
+            // this variable is used for product - user info
+            $data = $this->queries_dm->getProductAndUser();
             include 'app/views/dashboard.php';
         }
     }

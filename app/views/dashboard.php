@@ -15,8 +15,7 @@
         </div>
         <!--Here we have the graph-->
         <div class="graph_container">
-            <!--TODO: hacer un include php de su script (el script esta en la carpeta utils)-->
-            <div id="piechart" style="width: 900px; height: 500px;"></div>
+            <?php include './app/utils/scriptPieChart.php'; ?>
         </div>
     </section>
 
@@ -29,8 +28,7 @@
         </div>
         <!--Here we have the graph-->
         <div class="graph_container">
-            <!--TODO: hacer un include php de su script (el script esta en la carpeta utils)-->
-            <div id="piechart" style="width: 900px; height: 500px;"></div>
+            <?php include './app/utils/scriptBubbleChart.php'; ?>
         </div>
     </section>
 

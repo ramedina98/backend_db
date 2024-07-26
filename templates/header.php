@@ -10,6 +10,21 @@
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>public/icons/favicon.ico" type="image/x-icon">
     <!--cdn de bootstrap, stilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Required script to use google charts-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(function() {
+        // Trigger each client's chart draw function
+        <?php
+        if (is_array($data)) {
+            foreach($data as $client => $products) {
+                echo "drawChartForClient_$client();\n";
+            }
+        }
+        ?>
+    });
+    </script>
 </head>
 <body>
 <header>
