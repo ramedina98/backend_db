@@ -1,6 +1,6 @@
 <?php
     /**
-     *
+     * @author Ricardo Medina
      */
 
     class DashboardController {
@@ -25,8 +25,10 @@
 
         // method to handle the main logic for the dashboard...
         public function index() {
-            // this variable is used for product - user info
+            // this variable is used for product - user info..
             $data = $this->queries_dm->getProductAndUser();
+            // this variable is used for product - price info...
+            $data1 = $this->queries_dm->getProductAndPrice();
             include 'app/views/dashboard.php';
         }
     }

@@ -28,7 +28,15 @@
         </div>
         <!--Here we have the graph-->
         <div class="graph_container">
-            <?php include './app/utils/scriptBubbleChart.php'; ?>
+            <?php include './app/utils/scriptBarChart.php'; ?>
+        </div>
+        <!--section where is the total amount of sales-->
+        <div id="total_amount_div">
+            <h4>Total vendido:
+                <span>
+                    <?php include './app/utils/totalAmountOfSales.php' ?>
+                </span>
+            </h4>
         </div>
     </section>
 

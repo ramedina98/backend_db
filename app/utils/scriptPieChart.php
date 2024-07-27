@@ -3,7 +3,7 @@
 
 // Check if $data is an array
 if (is_array($data)) {
-    //TODO: corregir esto, hay que hacer una funcion que me saque la quincena de la que saca los datos...
+    //NOTA: corregir esto, hay que hacer una funcion que me saque la quincena de la que saca los datos...
     $date = '22 de Julio al 02 de Agosto';
 
     echo '<div id="charts-container">';
