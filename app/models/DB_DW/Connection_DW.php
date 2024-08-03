@@ -28,10 +28,10 @@
         private $conn;
 
         public function __construct(){
-            $this->host = getenv('DB_HOST') ?: $_ENV['DB_HOST_DW'];
-            $this->dbname = getenv('DB_DATABASE') ?: $_ENV['DB_DATABASE_DW'];
-            $this->username = getenv('DB_USERNAME') ?: $_ENV['DB_USERNAME_DW'];
-            $this->password = getenv('DB_PASSWORD') ?: $_ENV['DB_PASSWORD_DW'];
+            $this->host = getenv('DB_HOST_DW') ?: $_ENV['DB_HOST_DW'];
+            $this->dbname = getenv('DB_DATABASE_DW') ?: $_ENV['DB_DATABASE_DW'];
+            $this->username = getenv('DB_USERNAME_DW') ?: $_ENV['DB_USERNAME_DW'];
+            $this->password = getenv('DB_PASSWORD_DW') ?: $_ENV['DB_PASSWORD_DW'];
         }
 
         public function getConnection(){
