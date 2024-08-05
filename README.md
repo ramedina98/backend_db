@@ -55,6 +55,7 @@ This file defines the DashboardController class, responsible for managing querie
     }
 ?>
 ```
+
 ### Index
 The index method in the DashboardController class handles requests for the dashboard's main page. This method performs two database queries to obtain information about products and users, as well as products and prices, and then includes the dashboard view.
 
@@ -633,21 +634,29 @@ In our case, the Dashboard was deployed on Hostinger, due to the simplicity of o
 First, a subdomain named backend_proyect was created, which creates a new folder with the same name in the root of the public_html folder. The main domain from which this subdomain derives is called abarrotes_universidad.
 The second step was to upload all the files to the backend_proyect folder, add the necessary environment variables, and everything was ready. The project is now deployed on the host.
 
-## DataBase and desing pattern
+## Stack used
+- [JavaScript]![JS](https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png?size=100)
+- [PHP]![PHP](https://pngimg.com/d/php_PNG12.png?size=100)
+- [HTML]![html](https://w7.pngwing.com/pngs/410/100/png-transparent-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-text-thumbnail.png?size=100)
+- [CSS]![](https://cdn-icons-png.flaticon.com/512/919/919826.png?size=100)
 
-The database we are working with is small, and was created with **Mysql**. It is hosted at hostinger.
+## DataBase
+- [MySQL]![MySQLlogo](https://i0.wp.com/futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png?size=100)
+- [MongoDB]![MongoLogo](https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png?size=100)
 
+
+## Desing pattern
 The **MVC** desing pattern was used in this project.
 
 ## Development team
 
-[![Ricardo Medina's Profile Picture](https://github.com/ramedina98.png?size=100)](https://github.com/ramedina98) [Ricardo Medina](https://github.com/ramedina98)
+- [![Ricardo Medina's Profile Picture](https://github.com/ramedina98.png?size=100)](https://github.com/ramedina98) [Ricardo Medina](https://github.com/ramedina98)
 
-[![Cynthia's Profile Picture](https://github.com/ferpipipi.png?size=100)](https://github.com/ferpipipi) [Cynthia](https://github.com/ferpipipi)
+- [Cynthia](https://github.com/ferpipipi)
 
 [![Jennifer Hernández's Profile Picture](https://github.com/jenn8199.png?size=100)](https://github.com/jenn8199) [Jennifer Hernández](https://github.com/jenn8199)
 
-[![Joel Macias's Profile Picture](https://github.com/CuentaEscuela.png?size=10)](https://github.com/CuentaEscuela) [Joel Macias](https://github.com/CuentaEscuela)
+- [Joel Macias](https://github.com/CuentaEscuela)
 
 ## Contacto
 
