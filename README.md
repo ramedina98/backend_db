@@ -635,14 +635,14 @@ First, a subdomain named backend_proyect was created, which creates a new folder
 The second step was to upload all the files to the backend_proyect folder, add the necessary environment variables, and everything was ready. The project is now deployed on the host.
 
 ## Stack used
-- [JavaScript]![JS](https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png?size=100)
-- [PHP]![PHP](https://pngimg.com/d/php_PNG12.png?size=100)
-- [HTML]![html](https://w7.pngwing.com/pngs/410/100/png-transparent-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-text-thumbnail.png?size=100)
-- [CSS]![](https://cdn-icons-png.flaticon.com/512/919/919826.png?size=100)
+- ![JS](https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png?size=10)
+- ![PHP](https://pngimg.com/d/php_PNG12.png?size=10)
+- ![html](https://w7.pngwing.com/pngs/410/100/png-transparent-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-text-thumbnail.png?size=10)
+- ![](https://cdn-icons-png.flaticon.com/512/919/919826.png?size=10)
 
 ## DataBase
-- [MySQL]![MySQLlogo](https://i0.wp.com/futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png?size=100)
-- [MongoDB]![MongoLogo](https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png?size=100)
+- ![MySQLlogo](https://i0.wp.com/futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png?size=10)
+- ![MongoLogo](https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png?size=10)
 
 
 ## Desing pattern
@@ -650,13 +650,13 @@ The **MVC** desing pattern was used in this project.
 
 ## Development team
 
-- [![Ricardo Medina's Profile Picture](https://github.com/ramedina98.png?size=100)](https://github.com/ramedina98) [Ricardo Medina](https://github.com/ramedina98)
+- Ricardo Medina: [Linkedin](https://www.linkedin.com/in/ricardomedinamartin/) [GitHub](https://github.com/ramedina98)
 
-- [Cynthia](https://github.com/ferpipipi)
+- Cynthia: [GitHub](https://github.com/ferpipipi)
 
-[![Jennifer Hernández's Profile Picture](https://github.com/jenn8199.png?size=100)](https://github.com/jenn8199) [Jennifer Hernández](https://github.com/jenn8199)
+- Jennifer Hernández: [GitHub](https://github.com/jenn8199)
 
-- [Joel Macias](https://github.com/CuentaEscuela)
+- Joel Macias: [GitHub](https://github.com/CuentaEscuela)
 
 ## Contacto
 
