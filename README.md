@@ -636,7 +636,7 @@ The second step was to upload all the files to the backend_proyect folder, add t
 
 ## Stack used
 - <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JS" width="50"/>
-- <img src="https://pngimg.com/d/php_PNG12.png" alt="PHP" width="50"/>
+- <img src="https://brandslogos.com/wp-content/uploads/images/large/php-logo.png" alt="PHP" width="50"/>
 - <img src="https://w7.pngwing.com/pngs/410/100/png-transparent-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-text-thumbnail.png" alt="HTML" width="50"/>
 - <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS" width="50"/>
 
