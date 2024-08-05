@@ -509,7 +509,7 @@ if (is_array($data1)) {
 
 ### Date formate
 **File** **path:** “backend_db/templates/date_form.php”
-This PHP code includes a function from an external file to format the current date. It sets the time zone to 'America/Mexico_City' and retrieves the current date in 'Y-m-d' format. It then uses the formatDate function to format this date and display it within an HTML container. The formatted date is shown in an <h3> element inside a <div> container with the identifier “date_container.”
+This PHP code includes a function from an external file to format the current date. It sets the time zone to 'America/Mexico_City' and retrieves the current date in 'Y-m-d' format. It then uses the formatDate function to format this date and display it within an HTML container. The formatted date is shown in an element inside a container with the identifier “date_container.”
 
 ```PHP
 <?php
