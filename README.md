@@ -7,6 +7,26 @@ This is the link where you can view the dashboard, hostinger was used to host th
 
 :information_source: :information_source:
 
+## Table of Contents
+- [Dependencies](#dependencies)
+- [Purpose](#purpose)
+- [APP](#app)
+    - [Controllers](#controllers)
+    - [Index](#index)
+    - [Models](#models)
+    - [Views](#views)
+    - [Utils](#utils)
+- [Templates](#templates)
+    - [Data formate](#date-formate)
+    - [Header](#header)
+    - [Footer](#footer)
+- [Deployment Process of the Dashboard on a Host](#deployment-process-of-the-dashboard-on-a-host)
+- [Stack used](#stack-used)
+- [Data Base](#database)
+- [Desing pattern](#desing-pattern)
+- [Development team](#development-team)
+- [Contact](#contact)
+
 ## Dependencies
 
 This project was developed using PHP. Although no specific dependencies were added, a vendor folder is included for managing potential dependencies in the future. The vendor folder is standard in PHP projects that use Composer, a tool for dependency management in PHP.
@@ -640,7 +660,7 @@ The second step was to upload all the files to the backend_proyect folder, add t
 - <img src="https://w7.pngwing.com/pngs/410/100/png-transparent-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-text-thumbnail.png" alt="HTML" width="50"/>
 - <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS" width="50"/>
 
-## DataBase
+## Data Base
 - <img src="https://i0.wp.com/futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png" alt="MySQLlogo" width="50"/>
 - <img src="https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png" alt="MongoLogo" width="50"/>
 
@@ -657,6 +677,6 @@ The **MVC** desing pattern was used in this project.
 
 - Joel Macias: [GitHub](https://github.com/CuentaEscuela)
 
-## Contacto
+## Contact
 
 - **Email:** rmedinamartindelcampo@gmail.com
